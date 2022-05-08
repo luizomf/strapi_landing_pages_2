@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_section_section_grids",
+  "info": {
+    "displayName": "section_grid",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "text_grid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.text-grid",
+      "required": false
+    },
+    "image_grid": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.image-grid",
+      "required": false
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "section.section-metadata",
+      "required": true
+    }
+  }
+}
