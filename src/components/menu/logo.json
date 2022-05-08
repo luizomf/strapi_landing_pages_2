@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_menu_logos",
+  "info": {
+    "displayName": "logo",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "logo_text": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "menu_link": {
+      "displayName": "menu_link",
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.menu-link"
+    }
+  }
+}
