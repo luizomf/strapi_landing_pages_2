@@ -2,16 +2,18 @@
   "collectionName": "components_menu_logos",
   "info": {
     "displayName": "logo",
-    "icon": "align-left"
+    "icon": "align-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "logo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "logo_text": {
       "type": "string",
@@ -20,12 +22,6 @@
     "url": {
       "type": "string",
       "required": true
-    },
-    "menu_link": {
-      "displayName": "menu_link",
-      "type": "component",
-      "repeatable": true,
-      "component": "menu.menu-link"
     }
   }
 }
