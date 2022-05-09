@@ -14,7 +14,7 @@
       "component": "menu.logo",
       "required": true
     },
-    "menu_link": {
+    "menu_links": {
       "type": "component",
       "repeatable": true,
       "component": "menu.menu-link",

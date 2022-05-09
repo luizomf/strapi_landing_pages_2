@@ -19,8 +19,13 @@
       "type": "string",
       "required": true
     },
-    "url": {
+    "logo_link": {
       "type": "string",
+      "required": true
+    },
+    "open_in_new_tab": {
+      "type": "boolean",
+      "default": false,
       "required": true
     }
   }
