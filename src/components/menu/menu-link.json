@@ -1,9 +1,8 @@
 {
   "collectionName": "components_menu_menu_links",
   "info": {
-    "displayName": "menu_links",
-    "icon": "align-right",
-    "description": ""
+    "displayName": "menu_link",
+    "icon": "align-left"
   },
   "options": {},
   "attributes": {
@@ -12,7 +11,7 @@
       "required": true
     },
     "url": {
-      "type": "string",
+      "type": "text",
       "required": true
     },
     "open_in_new_tab": {
